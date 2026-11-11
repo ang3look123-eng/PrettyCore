@@ -1,0 +1,45 @@
+name: PrettyCore
+version: 1.0.0
+main: ru.prettycraft.core.PrettyCore
+api-version: "1.21"
+author: PrettyCraft
+description: Профессии, события, экономика, дом/спавн, меню и скорборд для PrettyCraft
+commands:
+  balance:
+    aliases: [bal, money]
+    description: Баланс
+  pay:
+    description: Перевод монет
+  baltop:
+    description: Топ богачей
+  daily:
+    description: Ежедневная награда
+  menu:
+    aliases: [profile, m]
+    description: Главное меню
+  sethome:
+    description: Установить дом
+  home:
+    description: Телепорт домой
+  delhome:
+    description: Удалить дом
+  homes:
+    description: Список домов
+  setspawn:
+    description: Установить спавн
+  spawn:
+    description: Телепорт на спавн
+  event:
+    description: Мировое событие
+  sb:
+    aliases: [board]
+    description: Вкл/выкл скорборд
+  prettycore:
+    aliases: [pc]
+    description: Админ-команды
+permissions:
+  prettycore.admin:
+    default: op
+  prettycore.bypass:
+    description: Телепорт без задержки
+    default: op

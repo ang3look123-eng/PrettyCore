@@ -1,0 +1,38 @@
+prefix: "<gradient:#ff6ec7:#ffb86c><bold>PrettyCraft</bold></gradient> <dark_gray>»</dark_gray> "
+server-ip: "play.pretty-craft.ru"
+starter-coins: 100
+
+teleport:
+  warmup: 3        # секунд, 0 = мгновенно
+homes:
+  max: 3
+daily:
+  base: 100
+  step: 50         # +step за каждый день серии (цикл 7 дней, на 7-й день 3 алмаза)
+
+professions:
+  double-drop-per-level: 0.005   # шанс двойного дропа за уровень (0.5%)
+  coin-bonus-per-level: 0.02     # +2% монет за уровень
+  mob: { coins: 2.0, xp: 6 }
+  log: { coins: 0.5, xp: 3 }
+  crop: { coins: 1.0, xp: 4 }
+
+# часть названия блока -> монеты (XP = монеты x2)
+ores:
+  COAL: 1.5
+  COPPER: 1.5
+  IRON: 2.5
+  GOLD: 3.5
+  REDSTONE: 2.5
+  LAPIS: 3.0
+  QUARTZ: 2.5
+  DIAMOND: 8.0
+  EMERALD: 8.0
+  ANCIENT_DEBRIS: 15.0
+
+events:
+  enabled: true
+  interval-minutes: 45
+  duration-minutes: 10
+  multiplier: 2.0
+  min-players: 1
